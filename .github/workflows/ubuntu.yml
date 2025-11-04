@@ -119,7 +119,7 @@ jobs:
           CHECKARGS: "--clientbin ./client/build/proxmark3"
         run: make client/check
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: proxmark3-ubuntu-firmware
           path: |
