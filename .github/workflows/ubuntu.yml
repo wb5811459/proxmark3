@@ -122,6 +122,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: proxmark3-ubuntu-firmware
-          path: |
-            armsrc/obj/fullimage.elf
-            bootrom/obj/bootrom.elf
+          path: "**/*.elf"
